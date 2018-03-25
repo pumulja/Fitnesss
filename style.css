@@ -89,7 +89,8 @@ font-size: 14px;
 }
 
 .content-container {
-width: 800px;
+width: 1150px;
+margin: 0 auto;
 
 
 }
@@ -104,8 +105,11 @@ margin: 0 auto;
 .menu {
 background: #ffffff;
 text-align: center;
-width: 380px;
-
+width: 350px;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:10px;
+padding-right:10px;
 
 }
 
