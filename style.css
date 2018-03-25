@@ -94,14 +94,14 @@ margin-right: 210px;
 
 }
 
-.content-menu-1, .content-menu-2 {
+.content-menu {
 display:inline-flex;
 justify-content: space-around;
 margin: 0 auto;
 
 }
 
-.menu-1, .menu-2 {
+.menu {
 background: #ffffff;
 text-align: center;
 width: 200px;
@@ -137,13 +137,10 @@ color: #a2ca28;
 height: 23px;
 }
 
-.content-image1{
+.content-image{
 margin-left: 0;
 
-}
 
-.content-image2{
-margin-right: 0;
 }
 
 
