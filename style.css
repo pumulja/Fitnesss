@@ -89,8 +89,8 @@ font-size: 14px;
 }
 
 .content-container {
-margin-left: 210px;
-margin-right: 210px;
+width: 800px;
+
 
 }
 
@@ -104,7 +104,8 @@ margin: 0 auto;
 .menu {
 background: #ffffff;
 text-align: center;
-width: 200px;
+width: 380px;
+
 
 }
 
