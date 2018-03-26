@@ -152,8 +152,39 @@ height: 23px;
 .content-image{
 margin-left: 0;
 
+}
+
+.input {
+padding: 10px;
+border: 1px solid;
+color: grey;
 
 }
 
+.button{
+color: #fff;
+background: #a2ca28;
+font-size:16px;
+padding:10px 40px;
+position: relative;
 
 
+}
+
+.button:after {
+content: '';
+display:inline-block;
+background-image:url(https://image.flaticon.com/icons/svg/109/109681.svg);
+background-repeat: no-repeat;
+width: 18px;
+height: 18px;
+position: absolute;
+right: 15px;
+border-radius: 4px;
+
+}
+
+.social_button{
+list-style: none;
+
+}
