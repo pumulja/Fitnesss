@@ -19,12 +19,10 @@ src: url("./fonts/OpenSans-Light.ttf");
 font-family:"OpenSans-Light";
 }
 
-
 @font-face{
 src: url("./fonts/AvenirNextCyr-Regular.woff");
 font-family:"AvenirNextCyr-Regular";
 }
-
 
 @font-face{
 src: url("./fonts/ProximaNova/ProximaNova-Black");
@@ -74,6 +72,8 @@ text-transform: uppercase;
 font-size: 40px;
 margin-top: 550px;
 margin-left: 50px;
+font-family:"AvenirNextCyr-Regular", sans-serif;
+font-weight: 300;
 
 }
 
@@ -87,7 +87,7 @@ margin-left: 300px;
 }
 
 .main-content-menu{
-	background: #a2ca28;
+background: #a2ca28;
 }
 
 .benefits{
@@ -123,7 +123,6 @@ font-size: 14px;
 .content-container {
 width: 1150px;
 margin: 0 auto;
-
 
 }
 
@@ -198,7 +197,6 @@ background: #a2ca28;
 font-size:16px;
 padding:10px 40px;
 position: relative;
-
 
 }
 
