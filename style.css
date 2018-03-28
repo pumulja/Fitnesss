@@ -327,8 +327,8 @@ position: relative;
 content: '';
 background-image: url("https://image.flaticon.com/icons/svg/134/134141.svg");
 width:20px;
-height:20px;
 display: block;
+height:20px;
 position: absolute;
 top: 15px;
 left: 15px;
@@ -347,6 +347,7 @@ background-image: url("https://image.flaticon.com/icons/svg/77/77895.svg");
 width:20px;
 height:20px;
 display: block;
+position: absolute;
 top: 15px;
 left: 15px;
 
