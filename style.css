@@ -27,21 +27,18 @@ font-family: "ProximaNova-Semibold.woff";
 .body{
 font-family: "ProximaNova-Black", sans-serif;
 font-weight: 400;
-
 }
 .parent-header-menulink{
 display:flex;
 justify-content: space-between;
 width: 500px;
 list-style: none;
-
 }
 
 .header-menulink{
 text-transform: uppercase;
 color: #ffffff;
 font-size: 13px;
-
 }
 
 .top-menu-container{
@@ -50,7 +47,6 @@ justify-content: space-between;
 padding-top: 30px;
 padding-left: 30px;
 padding-right: 30px;
-
 }
 
 .header{
@@ -58,7 +54,6 @@ background-image: url("./images/background.jpg");
 height: 890px;
 background-repeat: no-repeat;
 background-size: cover;
-
 }
 
 .main-title{
@@ -69,7 +64,6 @@ margin-top: 550px;
 margin-left: 50px;
 font-family:"AvenirNextCyr-Regular", sans-serif;
 font-weight: 300;
-
 }
 
 .sub-title {
@@ -80,7 +74,6 @@ margin-top: 30px;
 margin-left: 300px;
 font-family: "Open Sans", sans-serif;
 font-weight: 800;
-
 }
 
 .main-content-menu{
@@ -97,7 +90,6 @@ padding-left: 0;
 color: #ffffff;
 padding-top: 40px;
 padding-bottom: 120px;
-
 }
 
 .link-item{
@@ -106,7 +98,6 @@ font-size: 14px;
 text-decoration: none;
 font-family:"ProximaNova-Reg";
 font-weight: 300;
-
 }
 
 .link-item:after {
@@ -120,7 +111,6 @@ font-weight: 300;
 position: relative;
 padding-top: 30px;
 padding-bottom: 30px;
-
 }
 
 .benefits-text{
@@ -129,20 +119,17 @@ font-family:"ProximaNova-Reg";
 font-weight: 300;
 position: relative;
 padding-bottom: 30px;
-
 }
 
 .content-container {
 width: 1150px;
 margin: 0 auto;
-
 }
 
 .content-menu {
 display:inline-flex;
 justify-content: space-around;
 margin: 0 auto;
-
 }
 
 .menu {
@@ -153,7 +140,6 @@ padding-top:10px;
 padding-bottom:10px;
 padding-left:10px;
 padding-right:10px;
-
 }
 
 .title-h3 {
@@ -165,7 +151,6 @@ font-weight: 300;
 position: relative;
 padding-top: 55px;
 padding-bottom: 16px;
-
 }
 
 .title-h2 {
@@ -174,7 +159,6 @@ font-size: 35px;
 text-transform: uppercase;
 font-family:"OpenSans-Light";
 font-weight: 100;
-
 }
 
 .text-p {
@@ -186,7 +170,6 @@ position: relative;
 padding-left: 40px;
 padding-right: 40px;
 padding-bottom: 18px;
-
 }
 
 .content-link{
@@ -194,7 +177,6 @@ color: #a2ca28;
 font-family: "Open Sans", sans-serif;
 font-weight: 400;
 padding-bottom: 100px;
-
 }
 
 .icon-5{
@@ -202,18 +184,45 @@ height: 23px;
 position: relative;
 padding-top: 23px;
 padding-bottom: 23px;
-
 }
 
 .content-image{
 margin-left: 0;
+}
 
+.img-div{
+position: relative;
+}
+
+.img-div::before{
+display: block;
+width: 784px;
+height: 394px;
+background: rgba(42, 99, 117, 0.5);
+position: absolute;
+}
+
+.img-div-hover{
+display: none;
+position: absolute;
+top: 0;
+width: 250px;
+text-align: center;
+font-family: 
+font-weight
+}
+
+.img-div:hover .img-div-hover{
+display: block;
+}
+
+.img-div:hover::before{
+content: '';
 }
 
 .footer {
 background: #0d1119;
 height: 154px;
-
 }
 
 .footer-container{
@@ -222,7 +231,6 @@ justify-content: space-around;
 position: relative;
 padding-bottom:35px;
 padding-top:70px;
-
 }
 
 .input {
@@ -237,7 +245,6 @@ width: 194px;
 padding-left: 20px;
 padding: 10px;
 margin-right: 10px;
-
 }
 
 .button{
@@ -252,7 +259,6 @@ border-radius: 4px;
 border: 0;
 padding: 13px;
 width: 174px;
-
 }
 
 .button:after {
@@ -265,16 +271,14 @@ height: 18px;
 position: absolute;
 right: 9px;
 border-radius: 4px;
-
 }
 
 .social_buttons{
 list-style:none;
-
 }
 
 .social_button-size { 
-width: width:50px;
+width: 50px;
 height:50px;
 margin-left: 20px;
 border-radius:50%;
@@ -284,7 +288,6 @@ display: inline-block;
 .social_button-fb{
 background: #2e3192;
 position: relative;
-
 }
 
 .social_button-fb::before{
@@ -292,12 +295,11 @@ content: '';
 background-image: url("https://image.flaticon.com/icons/svg/134/134020.svg");
 width:20px;
 height:20px;
-display: block;
+display: inline-block;
 position: absolute;
 top: 15px;
 left: 15px;
 background-repeat: no-repeat;
-
 }
 
 .social_button-tw{
@@ -319,8 +321,8 @@ position: absolute;
 top: 15px;
 left: 15px;
 background-repeat: no-repeat;
-
 }
+
 .social_button-yt{
 background:#ed3123;
 position: relative;
@@ -328,7 +330,6 @@ width:50px;
 height:50px;
 margin-left: 20px;
 border-radius:50%;
-
 }
 
 .social_button-yt::before {
@@ -341,7 +342,6 @@ position: absolute;
 top: 15px;
 left: 15px;
 background-repeat: no-repeat;
-
 }
 
 .social_button-in{
@@ -351,7 +351,6 @@ width:50px;
 height:50px;
 margin-left: 20px;
 border-radius:50%;
-
 }
 
 .social_button-in::before{
@@ -364,5 +363,4 @@ position: absolute;
 top: 15px;
 left: 15px;
 background-repeat: no-repeat;
-
 }
