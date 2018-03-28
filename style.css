@@ -196,7 +196,7 @@ position: relative;
 
 .img-div::before{
 display: block;
-width: 784px;
+width: 793px;
 height: 394px;
 background: rgba(42, 99, 117, 0.5);
 position: absolute;
@@ -208,8 +208,8 @@ position: absolute;
 top: 0;
 width: 250px;
 text-align: center;
-font-family: 
-font-weight
+font-family:;
+font-weight:;
 }
 
 .img-div:hover .img-div-hover{
@@ -218,6 +218,26 @@ display: block;
 
 .img-div:hover::before{
 content: '';
+}
+
+.img-div-hover-h3{
+color: #fd634e;
+font-size: 14px;
+text-transform: uppercase;
+font-family:"Montserrat-Regular";
+font-weight: 300;
+position: relative;
+padding-top: 55px;
+padding-bottom: 16px;
+}
+
+.img-div-hover-h2{
+color: #a2ca28;
+font-size: 35px;
+text-transform: uppercase;
+font-family:"OpenSans-Light";
+font-weight: 100;
+position: relative;
 }
 
 .footer {
