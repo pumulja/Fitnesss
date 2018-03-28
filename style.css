@@ -192,6 +192,8 @@ margin-left: 0;
 
 .img-div{
 position: relative;
+text-align: center;
+
 }
 
 .img-div::before{
