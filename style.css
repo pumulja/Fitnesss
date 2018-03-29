@@ -214,7 +214,7 @@ background: rgba(42, 99, 117, 0.5);
 position: absolute;
 content: '';
 opacity: 0;
-transition: all 0.5;
+transition: all 1s;
 }
 
 .img-div-hover{
@@ -224,7 +224,7 @@ text-align: center;
 width: 793px;
 height: 394px;
 opacity: 0;
-transition: all 0.5;
+transition: all 1s;
 }
 
 .img-div:hover .img-div-hover{
