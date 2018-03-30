@@ -1,22 +1,44 @@
 /* Styles go here */
-
-.body {
-font-family: 'Open Sans', sans-serif;
-
+@font-face{
+src: url("./fonts/AvenirNextCyr-Regular.woff");
+font-family:"AvenirNextCyr";
+font-weight: 300;
 }
+
+@font-face{
+src: url("./fonts/Montserrat-Regular.otf");
+font-family:"Montserrat";
+font-weight: 300;
+}
+
+@font-face{
+src: url("./fonts/OpenSans-Light.ttf");
+font-family:"OpenSans";
+font-weight: 300;
+}
+
+@font-face{
+src: url("./fonts/ProximaNova-Reg.otf");
+font-family:"ProximaNova";
+font-weight: 300;
+}
+
+.body{
+font-family: "ProximaNova", sans-serif;
+font-weight: 400;
+}
+
 .parent-header-menulink{
 display:flex;
 justify-content: space-between;
 width: 500px;
 list-style: none;
-
 }
 
 .header-menulink{
 text-transform: uppercase;
 color: #ffffff;
 font-size: 13px;
-
 }
 
 .top-menu-container{
@@ -25,15 +47,13 @@ justify-content: space-between;
 padding-top: 30px;
 padding-left: 30px;
 padding-right: 30px;
-
 }
 
 .header{
-background-image: url('./images/background.jpg');
+background-image: url("./images/background.jpg");
 height: 890px;
 background-repeat: no-repeat;
 background-size: cover;
-
 }
 
 .main-title{
@@ -42,7 +62,8 @@ text-transform: uppercase;
 font-size: 40px;
 margin-top: 550px;
 margin-left: 50px;
-
+font-family:"AvenirNextCyr", sans-serif;
+font-weight: 300;
 }
 
 .sub-title {
@@ -51,11 +72,12 @@ font-size: 15px;
 text-transform: uppercase;
 margin-top: 30px;
 margin-left: 300px;
-
+font-family: "OpenSans", sans-serif;
+font-weight: 800;
 }
 
 .main-content-menu{
-	background: #a2ca28;
+background: #a2ca28;
 }
 
 .benefits{
@@ -68,85 +90,298 @@ padding-left: 0;
 color: #ffffff;
 padding-top: 40px;
 padding-bottom: 120px;
-
 }
 
 .link-item{
 color: #ffffff;
 font-size: 14px;
 text-decoration: none;
+font-family:"ProximaNova", sans-serif;
+font-weight: 300;
+}
 
+.link-item:after {
+content: '';
 }
 
 .benefits-title{
 font-size: 24px;
-
+font-family: "OpenSans", sans-serif;
+font-weight: 300;
+position: relative;
+padding-top: 30px;
+padding-bottom: 30px;
 }
 
 .benefits-text{
 font-size: 14px;
-
+font-family:"ProximaNova", sans-serif;
+font-weight: 300;
+position: relative;
+padding-bottom: 30px;
 }
 
 .content-container {
 width: 1150px;
 margin: 0 auto;
-
-
 }
 
 .content-menu {
 display:inline-flex;
 justify-content: space-around;
 margin: 0 auto;
-
 }
 
 .menu {
 background: #ffffff;
 text-align: center;
+margin: 0 auto;
 width: 350px;
 padding-top:10px;
 padding-bottom:10px;
 padding-left:10px;
 padding-right:10px;
-
 }
 
 .title-h3 {
 color: #fd634e;
 font-size: 14px;
 text-transform: uppercase;
-
+font-family:"Montserrat", sans-serif;
+font-weight: 300;
+position: relative;
+padding-top: 55px;
+padding-bottom: 16px;
 }
 
 .title-h2 {
 color: #a2ca28;
 font-size: 35px;
 text-transform: uppercase;
-
+font-family:"OpenSans", sans-serif;
+font-weight: 100;
 }
 
 .text-p {
 color: #656e74;
 font-size: 14px;
-
+font-family: "OpenSans", sans-serif;
+font-weight: 400;
+position: relative;
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 18px;
+line-height: 1.5;
 }
 
 .content-link{
 color: #a2ca28;
-
+font-family: "OpenSans", sans-serif;
+font-weight: 400;
+padding-bottom: 100px;
 }
 
 .icon-5{
 height: 23px;
+position: relative;
+padding-top: 23px;
+padding-bottom: 23px;
 }
 
 .content-image{
 margin-left: 0;
-
-
 }
 
+.img-div{
+position: relative;
+}
 
+.img-div::before{
+display: block;
+width: 793px;
+height: 394px;
+background: rgba(42, 99, 117, 0.5);
+position: absolute;
+}
 
+.img-div-hover{
+display: none;
+position: absolute;
+top: 100px;
+text-align: center;
+width: 793px;
+height: 394px;
+}
+
+.img-div:hover .img-div-hover{
+display: block;
+}
+
+.img-div:hover::before{
+content: '';
+}
+
+.img-div-hover-h3{
+color: #fd634e;
+font-size: 14px;
+text-transform: uppercase;
+font-family:"Montserrat", sans-serif;
+font-weight: 300;
+position: relative;
+padding-top: 55px;
+padding-bottom: 16px;
+}
+
+.img-div-hover-h2{
+color: #a2ca28;
+font-size: 35px;
+text-transform: uppercase;
+font-family:"OpenSans", sans-serif;
+font-weight: 100;
+position: relative;
+}
+
+.footer {
+background: #0d1119;
+height: 154px;
+}
+
+.footer-container{
+display: flex;
+justify-content: space-around;
+position: relative;
+padding-bottom:35px;
+padding-top:70px;
+}
+
+.input {
+padding: 10px;
+border: 1px solid;
+color: grey;
+font-family:"ProximaNova", sans-serif;
+font-weight: 300;
+border-radius: 4px;
+border: 0;
+width: 194px;
+padding-left: 20px;
+padding: 10px;
+margin-right: 10px;
+}
+
+.button{
+color: #fff;
+background: #a2ca28;
+font-size:16px;
+padding:10px 40px;
+position: relative;
+font-family: "ProximaNova", sans-serif;
+font-weight: 700;
+border-radius: 4px;
+border: 0;
+padding: 13px;
+width: 174px;
+}
+
+.button:after {
+content: '';
+display:inline-block;
+background-image:url(https://image.flaticon.com/icons/svg/109/109681.svg);
+background-repeat: no-repeat;
+width: 18px;
+height: 18px;
+position: absolute;
+right: 9px;
+border-radius: 4px;
+}
+
+.social_buttons{
+list-style:none;
+}
+
+.social_button-size { 
+width: 50px;
+height:50px;
+margin-left: 20px;
+border-radius:50%;
+display: inline-block;
+}
+
+.social_button-fb{
+background: #2e3192;
+position: relative;
+}
+
+.social_button-fb::before{
+content: '';
+background-image: url("https://image.flaticon.com/icons/svg/134/134020.svg");
+width:20px;
+height:20px;
+display: inline-block;
+position: absolute;
+top: 15px;
+left: 15px;
+background-repeat: no-repeat;
+}
+
+.social_button-tw{
+background:#00aeef;
+position: relative;
+width:50px;
+height:50px;
+margin-left: 20px;
+border-radius:50%;
+}
+
+.social_button-tw::before{
+content: '';
+background-image: url("https://image.flaticon.com/icons/svg/179/179342.svg");
+width:20px;
+height:20px;
+display: inline-block;
+position: absolute;
+top: 15px;
+left: 15px;
+background-repeat: no-repeat;
+}
+
+.social_button-yt{
+background:#ed3123;
+position: relative;
+width:50px;
+height:50px;
+margin-left: 20px;
+border-radius:50%;
+}
+
+.social_button-yt::before {
+content: '';
+background-image: url("https://image.flaticon.com/icons/svg/134/134141.svg");
+width:20px;
+display: inline-block;
+height:20px;
+position: absolute;
+top: 15px;
+left: 15px;
+background-repeat: no-repeat;
+}
+
+.social_button-in{
+background: #171a8f;
+position: relative;
+width:50px;
+height:50px;
+margin-left: 20px;
+border-radius:50%;
+}
+
+.social_button-in::before{
+content: '';
+background-image: url("https://image.flaticon.com/icons/svg/77/77895.svg");
+width:20px;
+height:20px;
+display: inline-block;
+position: absolute;
+top: 15px;
+left: 15px;
+background-repeat: no-repeat;
+}

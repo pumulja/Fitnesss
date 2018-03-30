@@ -2,6 +2,9 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="./eric-meyer-reset.min_.css"/>
+  <link rel="stylesheet" href="./normalize.css"/>
+
   <link rel="stylesheet" href="./style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <html lang="en">
@@ -37,7 +40,7 @@
           <li>
             <img src="./images/icon1.svg">
             <h3 class="benefits-title">Resources</h3>
-            <p class="benefits-text">aLorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            <p class="benefits-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
             <a href="#" class="link-item">Explore more</a>
           </li>
 
@@ -70,7 +73,8 @@
           <div class="menu">
             <h3 class="title-h3">It's all about</h3>
             <h2 class="title-h2">Fitness first</h2>
-            <img class="icon-5" src="./images/icon5.svg">
+
+            <img class="icon-5" src="./images/icon5.svg"> 
              <p  class="text-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -78,16 +82,29 @@
             <a class="content-link" href="#">Read more</a>
           </div>
 
-          <img class="content-image" src="./images/img1.jpg">
+          <div class="img-div">
+            <img class="content-image" src="./images/img1.jpg">
+             <div class="img-div-hover">
+                <h2 class="img-div-hover-h2">Fitness first</h2>
+                <h3 class="img-div-hover-h3">It's all about</h3>
+            </div>
+          </div>
+
         </div>
 
         <div class="content-menu">
-          <img class="content-image" src="./images/img2.jpg">
-
+          <div class="img-div">
+            <img class="content-image" src="./images/img2.jpg">
+            <div class="img-div-hover">
+                <h3 class="img-div-hover-h3">Love your</h3>
+                <h2 class="img-div-hover-h2">Your body</h2>
+            </div>
+          </div>
+          
           <div class="menu">
             <h3 class="title-h3">Love your</h3>
             <h2 class="title-h2">Your body</h2>
-            <img class="icon-5" src="./images/icon5.svg">
+              <img class="icon-5" src="./images/icon5.svg">
             <p class="text-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -101,41 +118,39 @@
     </section>
   </main>
 
-  <footer>
+  <footer class="footer">
+    
+    <div class="footer-container">
     <form action="#" method="post">
-      <input type="text" placeholder="Your Name" />
-      <input type="text" placeholder="Your email" />
-      <button> Join Newsletter</button>
+      <input class="input" type="text" placeholder="Your Name" />
+      <input class="input" type="text" placeholder="Your email" />
+      <button class="button" > Join Newsletter </button>
     </form>
 
-    <ul>
+    <ul class="social_buttons">
 
-      <li>
-        <a href="">
-          <img src="">
+      <li class="social_button-fb social_button-size"> <a href="https://www.facebook.com">
         </a>
       </li>
 
-      <li>
-        <a href="">
-          <img src="">
+      <li class="social_button-tw social_button-size">
+        <a href="https://twitter.com">
         </a>
       </li>
 
-      <li>
-        <a href="">
-          <img src="">
+      <li class="social_button-yt social_button-size">
+        <a href="https://www.youtube.com">
         </a>
       </li>
 
-      <li>
-        <a href="">
-          <img src="">
+      <li class="social_button-in social_button-size">
+        <a href="https://www.linkedin.com">
         </a>
       </li>
 
     </ul>
 
+  </div>
   </footer>
 </body>
 
