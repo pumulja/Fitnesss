@@ -126,7 +126,7 @@
   display: flex;
   position: absolute;
   justify-content: space-between;
-  top: 115px;
+  top: 110px;
   left: 210px;
   list-style: none;
   color: #ffffff;
@@ -149,6 +149,7 @@
   font-family: "OpenSans", sans-serif;
   font-weight: 300;
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .benefits-text {
@@ -156,8 +157,8 @@
   font-family: "ProximaNova", sans-serif;
   font-weight: 300;
   position: relative;
-  padding-bottom: 24px;
-  line-height: 20px;
+  padding-bottom: 30px;
+  line-height: 24px;
 }
 
 .benefit-item {
@@ -314,8 +315,8 @@
 
 form {
   margin-top: 75px;
-  margin-bottom: 0;
-  margin-left: 0;
+  margin-bottom: 35px;
+  margin-left: 60px;
 }
 
 .input {
