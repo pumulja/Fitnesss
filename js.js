@@ -10,6 +10,7 @@ console.log ('Введенное число Y:' + typeof Y);
 
 X = parseInt(X);
 Y = parseInt(Y);
-amount = X + Y;
 
+amount = X + Y;
 alert("Сумма X + Y = " + amount);
+console.log ('Сумма X + Y = ' + amount);
