@@ -18,13 +18,13 @@
   font-weight: 300;
 }
 
-@@font-face {
+@font-face {
   src: url("./fonts/OpenSans-Bold.ttf");
   font-family: "OpenSans-Bold";
   font-weight: 300;
 }
 
-@@font-face {
+@font-face {
   src: url("./fonts/OpenSans-Regular.ttf");
   font-family: "OpenSans-Regular";
   font-weight: 300;
@@ -101,7 +101,7 @@
 }
 .header-container {
   max-width: 1600px;
-  min-width: 960px;
+  min-width: 1200px;
 }
 .header {
   max-width: 1600px;
@@ -531,10 +531,17 @@
   border: 2px solid green;
 }
 
+.message_sent {
+    display: none;
+    transition: all 1s;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-right: 440px;
+    padding: 30px 20px;
+    background-color: #a2ca28;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "OpenSans-Light", sans-serif;
 
-/* .message_sent {
-  color: #ffffff;
-  content: 'Message sent. Have a good Day!';
 }
-.message_sent::before {
-} */
