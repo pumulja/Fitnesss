@@ -8,14 +8,16 @@
   <link rel="stylesheet" href="./style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <html lang="en">
+  <script src="script.js"></script>
+  <meta charset="UTF-8">
+
   <title>Fitness in a can</title>
 </head>
 
 <body class="body">
   <header class="header">
-
       <div class="top-menu-container">
-        <img src="./images/logo.png">
+        <img class="logo-img" src="./images/logo.png">
         <nav>
           <ul class="parent-header-menulink">
             <li class="header-menulink">About</li>
@@ -27,45 +29,43 @@
         </nav>
       </div>
 
-      <h1 class="main-title">Fitness in a can </h1>
-      <h2 class="sub-title">Yes you can </h2>
+      <h1 class="main-title">Fitness in a can</h1>
+      <h2 class="sub-title">Yes you can</h2>
 
   </header>
-
   <main class="main-content-menu">
     <section>
 
       <div class="top-content-menu">
         <ul class="benefits">
-          <li>
-            <img src="./images/icon1.svg">
+          <li class="benefit-item">
+            <img class="benefit-img" src="./images/icon1.svg" width="44" height="41">
             <h3 class="benefits-title">Resources</h3>
-            <p class="benefits-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <p class="benefits-text">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration and work-in-progress</p>
             <a href="#" class="link-item">Explore more</a>
           </li>
 
-          <li>
-            <img src="./images/icon2.svg">
+          <li class="benefit-item">
+            <img class="benefit-img" src="./images/icon2.svg" width="45" height="44">
             <h3 class="benefits-title">Training & Finding</h3>
-            <p class="benefits-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <a href="#" class="link-item">Explore more</a>
+            <p class="benefits-text">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups.</p>
+            <a href="#" class="link-item">Browse training</a>
           </li>
 
-          <li>
-            <img src="./images/icon3.svg">
+          <li class="benefit-item">
+            <img class="benefit-img" src="./images/icon3.svg" width="47" height="33">
             <h3 class="benefits-title">Connect</h3>
-            <p class="benefits-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <a href="#" class="link-item">Explore more</a>
+            <p class="benefits-text">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups.</p>
+            <a href="#" class="link-item">Connect now</a>
           </li>
-          <li>
-            <img src="./images/icon4.svg">
+          <li class="benefit-item">
+            <img class="benefit-img" src="./images/icon4.svg" width="44" height="44">
             <h3 class="benefits-title">Communicate</h3>
-            <p class="benefits-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <a href="#" class="link-item">Explore more</a>
+            <p class="benefits-text">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups.</p>
+            <a href="#" class="link-item">Start now</a>
           </li>
         </ul>
       </div>
-
       <div class="content-container">
 
         <div class="content-menu">
@@ -74,19 +74,18 @@
             <h3 class="title-h3">It's all about</h3>
             <h2 class="title-h2">Fitness first</h2>
 
-            <img class="icon-5" src="./images/icon5.svg"> 
+            <img class="icon-5" src="./images/icon5.svg">
              <p  class="text-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.</p>
+            quis nostrud.</p>
             <a class="content-link" href="#">Read more</a>
           </div>
 
           <div class="img-div">
             <img class="content-image" src="./images/img1.jpg">
              <div class="img-div-hover">
-                <h2 class="img-div-hover-h2">Fitness first</h2>
                 <h3 class="img-div-hover-h3">It's all about</h3>
+                <h2 class="img-div-hover-h2">Fitness first</h2>
             </div>
           </div>
 
@@ -100,31 +99,28 @@
                 <h2 class="img-div-hover-h2">Your body</h2>
             </div>
           </div>
-          
+
           <div class="menu">
             <h3 class="title-h3">Love your</h3>
             <h2 class="title-h2">Your body</h2>
               <img class="icon-5" src="./images/icon5.svg">
             <p class="text-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.</p>
+            quis nostrud.</p>
             <a class="content-link" href="#">Read more</a>
           </div>
-        </div>
-
       </div>
 
+      </div>
     </section>
   </main>
-
   <footer class="footer">
-    
+
     <div class="footer-container">
-    <form action="#" method="post">
-      <input class="input" type="text" placeholder="Your Name" />
-      <input class="input" type="text" placeholder="Your email" />
-      <button class="button" > Join Newsletter </button>
+    <form class="form" id="contact_form" action="#" method="post">
+      <input class="input name" id="name" type="text" placeholder="  Your Name" />
+      <input class="input email" id="email" type="text" placeholder="  Your Email" />
+      <button class="button" id="my_button">Join Newsletter</button>
     </form>
 
     <ul class="social_buttons">
@@ -135,10 +131,10 @@
         <a href="https://twitter.com"> <li class="social_button-tw social_button-size"> </li>
         </a>
 
-        <a href="https://www.youtube.com"> <li class="social_button-yt social_button-size"> </li>
+        <a href="https://www.youtube.com"><li class="social_button-yt social_button-size"> </li>
         </a>
 
-        <a href="https://www.linkedin.com"> <li class="social_button-in social_button-size"> </li>
+        <a href="https://www.linkedin.com"><li class="social_button-in social_button-size"> </li>
         </a>
 
     </ul>
