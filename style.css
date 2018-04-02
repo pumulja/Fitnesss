@@ -18,13 +18,13 @@
   font-weight: 300;
 }
 
-@@font-face {
+@font-face {
   src: url("./fonts/OpenSans-Bold.ttf");
   font-family: "OpenSans-Bold";
   font-weight: 300;
 }
 
-@@font-face {
+@font-face {
   src: url("./fonts/OpenSans-Regular.ttf");
   font-family: "OpenSans-Regular";
   font-weight: 300;
@@ -429,7 +429,8 @@
     height: 50px;
     border-radius: 50%;
     display: inline-block;
-        margin-left: 9px;
+    margin-left: 9px;
+    animation: myAnimation2 10s infinite;
 }
 
 .social_button-fb {
