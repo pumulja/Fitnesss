@@ -77,6 +77,7 @@
   margin-top: 12px;
   margin-left: 25px;
 }
+
 .parent-header-menulink {
     display: flex;
     justify-content: space-around;
@@ -103,6 +104,7 @@
   max-width: 1600px;
   min-width: 1200px;
 }
+
 .header {
   max-width: 1600px;
   min-width: 960px;
@@ -125,6 +127,7 @@
     bottom: 136px;
     left: 113px;
 }
+
 .main-title::after {
   content: '/';
   color: #a2ca28;
@@ -382,6 +385,7 @@
 .name {
   width: 172px;
 }
+
 .email {
   width: 309px;
 }
@@ -429,7 +433,8 @@
     height: 50px;
     border-radius: 50%;
     display: inline-block;
-        margin-left: 9px;
+    margin-left: 9px;
+    animation: myAnimation2 5s infinite;
 }
 
 .social_button-fb {
@@ -472,6 +477,7 @@
   left: 15px;
   background-repeat: no-repeat;
 }
+
 .social_button-tw:hover {
   animation: myAnimation 5s infinite;
 }
@@ -543,5 +549,4 @@
     font-size: 16px;
     color: #ffffff;
     font-family: "OpenSans-Light", sans-serif;
-
 }
