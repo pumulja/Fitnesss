@@ -205,6 +205,7 @@
   width: 100%;
   height: 240px;
   position: relative;
+  padding-right: 15px; 
   /*margin-right: 20px;*/
   /*margin-bottom: 120px;*/
 }
@@ -276,6 +277,8 @@
     font-family: "OpenSans", sans-serif;
     font-weight: 400;
     font-size: 14px;
+    display: inline-block;
+    padding-top: 15px;
     /* margin-bottom: 100px; */
 }
 
@@ -313,7 +316,6 @@
   top: 100px;
   text-align: center;
   width: 100%;
-  height: 100%;
   opacity: 0;
   transition: all 1s;
 }
@@ -407,8 +409,8 @@
     width: 11px;
     height: 11px;
     position: absolute;
-    right: 24px;
-    top: 20px;
+    right: 19px;
+    top: 19px;
     border-radius: 4px;
 }
 
@@ -417,7 +419,7 @@
     margin-top: 63px;
     margin-bottom: 35px;
     /* margin-left: 134px; */
-    width: 253px;
+    width: 250px;
 }
 
 .social_buttons a {
@@ -440,7 +442,7 @@
 
 .social_button-fb::before {
   content: '';
-  background-image: url("https://image.flaticon.com/icons/svg/2/2738.svg");
+  background-image: url("./images/fb.svg");
   width: 20px;
   height: 20px;
   display: inline-block;
@@ -448,6 +450,8 @@
   top: 15px;
   left: 15px;
   background-repeat: no-repeat;
+  background-size: contain;
+
 }
 
 .social_button-fb:hover {
@@ -464,7 +468,7 @@
 
 .social_button-tw::before {
   content: '';
-  background-image: url("https://image.flaticon.com/icons/svg/220/220375.svg");
+  background-image: url("./images/tw.svg");
   width: 20px;
   height: 20px;
   display: inline-block;
@@ -472,6 +476,8 @@
   top: 15px;
   left: 15px;
   background-repeat: no-repeat;
+  background-size: contain;
+
 }
 .social_button-tw:hover {
   animation: myAnimation 5s infinite;
@@ -487,7 +493,7 @@
 
 .social_button-yt::before {
   content: '';
-  background-image: url("https://image.flaticon.com/icons/svg/733/733590.svg");
+  background-image: url("./images/yt.svg");
   width: 20px;
   display: inline-block;
   height: 20px;
@@ -495,6 +501,8 @@
   top: 15px;
   left: 15px;
   background-repeat: no-repeat;
+  background-size: contain;
+
 }
 
 .social_button-yt:hover {
@@ -511,7 +519,7 @@
 
 .social_button-in::before {
   content: '';
-  background-image: url("https://image.flaticon.com/icons/svg/77/77895.svg");
+  background-image: url("./images/ln.svg");
   width: 20px;
   height: 20px;
   display: inline-block;
@@ -519,6 +527,8 @@
   top: 15px;
   left: 15px;
   background-repeat: no-repeat;
+  background-size: contain;
+
 }
 
 .social_button-in:hover {
