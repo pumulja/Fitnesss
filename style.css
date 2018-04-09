@@ -224,7 +224,7 @@
 .content-menu {
   display: flex;
   margin: 0 auto;
-  max-width: 1192px; /* 1180 */
+  width: 1192px; /* 1180 */
   /* min-width: 960px; */
 }
 
